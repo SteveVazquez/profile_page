@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Profile Page</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!---- Nav-bar ---->
+        <div id="nav-bar">
+            <ul id="nav-left">
+                <li><h1>Profile</h1></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+            </ul>
+            <button id="sign-out-btn">Sign Out</button>
+        </div>
+        <!---- Main ---->
+        <div id="main">
+            <!-- Col-Left Profile Card -->
+            <div class="col-left">
+                <div class="profile-card">
+                    <div id="profile-card-header">
+                        <img
+                            id="main-pic"
+                            src="./images/jane-m.jpg"
+                            alt="jane"
+                        />
+                    </div>
+                    <div id="profile-card-body">
+                        <h2>Jane Doe</h2>
+                        <img src="./icons 4/map-marker.png" alt="" />
+                        <span>Seattle</span>
+                        <p>Developer | Engineer | Problem Solver</p>
+                        <p id="last-p">Master of shadows and the Internet</p>
+                        <img src="./icons 4/gear.png" alt="" />
+                        <a href="#"> edit profile</a>
+                    </div>
+                </div>
+                <!-- Col-left Education -->
+                <div class="education">
+                    <div class="card-header">
+                        <p>Education</p>
+                    </div>
+                    <div id="education-body">
+                        <h3>Coding Dojo- Full Stack Bootcamp</h3>
+                        <p id="dates">Dec 2019 - Mar 2020</p>
+                        <p>Triple black belt in Python, MERN, and C#</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Col-Right 1st Request -->
+            <div class="col-right">
+                <div class="requests">
+                    <div class="card-header">
+                        <span class="count">2</span>
+                        <span>Connection Requests</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="person">
+                            <img
+                                class="thumbnail"
+                                src="./images/todd-s.jpg"
+                                alt=""
+                            /><span>Todd E</span>
+                            <img
+                                class="accept-reject"
+                                src="./icons 4/accept-circle.png"
+                                alt=""
+                            />
+                            <img
+                                class="accept-reject"
+                                src="./icons 4/close-circle.png"
+                                alt=""
+                            />
+                        </div>
+                        <div class="person">
+                            <img
+                                class="thumbnail"
+                                src="./images/phil-s.jpg"
+                                alt=""
+                            /><span>Phil K</span>
+                            <img
+                                class="accept-reject"
+                                src="./icons 4/accept-circle.png"
+                                alt=""
+                            />
+                            <img
+                                class="accept-reject"
+                                src="./icons 4/close-circle.png"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+                <!-- Col-Right 2nd Request -->
+                <div class="requests">
+                    <div class="card-header">
+                        <span class="count">500+</span>
+                        <span>Your Connections</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="person-connections">
+                            <img
+                                class="thumbnail"
+                                src="./images/adrien-s.jpg"
+                                alt=""
+                            />
+                            <span>Adrien D</span>
+                        </div>
+                        <div class="person-connections">
+                            <img
+                                class="thumbnail"
+                                src="./images/anne-s.jpg"
+                                alt=""
+                            />
+                            <span>Anne J</span>
+                        </div>
+                        <div class="person-connections">
+                            <img
+                                class="thumbnail"
+                                src="./images/alayne-s.jpg"
+                                alt=""
+                            />
+                            <span>Alayne T</span>
+                        </div>
+                        <div class="person-connections">
+                            <img
+                                class="thumbnail"
+                                src="./images/arry-s.jpg"
+                                alt=""
+                            />
+                            <span>Arry Y</span>
+                        </div>
+                    </div>
+                    <!-- View More -->
+                    <div id="view-more">
+                        <a href="#">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

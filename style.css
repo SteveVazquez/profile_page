@@ -1,0 +1,222 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -----Nav-bar----- */
+
+#nav-bar {
+    /* border: 2px solid red; */
+    /* height: 100px; */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    margin-bottom: 50px;
+}
+
+#nav-left {
+    /* border: 2px solid pink; */
+    width: 500px;
+
+    list-style-type: none; /* remove bullets*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+#nav-left a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+#sign-out-btn {
+    background-color: rgb(23, 162, 184);
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+ul li:first-child {
+    margin-right: 30px;
+}
+
+/* -----End Nav-bar----- */
+
+/* -----Main after Nav-bar----- */
+
+#main {
+    /* border: 3px solid red; */
+    height: 900px;
+    display: flex;
+    padding: 0 100px;
+}
+
+.col-left,
+.col-right {
+    /* border: 3px solid blue; */
+    height: 900px;
+}
+
+.col-left {
+    flex: 1.8;
+    margin-right: 20px;
+}
+
+.col-right {
+    flex: 1;
+}
+
+/* -----Profile Card--------- */
+
+#profile-card-header {
+    background-color: rgb(23, 162, 184);
+    /* margin-bottom: 100px; */
+}
+
+#profile-card-body {
+    padding-left: 40px;
+    border: 3px solid grey;
+    border-top: none;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+#main-pic {
+    border-radius: 50%;
+    height: 150px;
+    position: relative;
+    top: 75px;
+    left: 40px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 0px 3px rgb(199, 197, 197);
+}
+
+#profile-card-body > img {
+    height: 30px;
+}
+
+#profile-card-body > h2 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+#profile-card-body > span {
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+#profile-card-body p:first-of-type {
+    margin-top: 20px;
+}
+
+#profile-card-body > p,
+#profile-card-body > a {
+    font-size: 2rem;
+}
+
+#last-p {
+    margin-bottom: 20px;
+}
+
+/* -------Education------- */
+
+.education {
+    /* border: 3px solid pink; */
+    margin-top: 30px;
+}
+
+.card-header {
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    font-size: 1.4rem;
+    padding: 15px;
+}
+
+#education-body {
+    padding: 15px;
+    border: 3px solid grey;
+    border-top: none;
+}
+
+#education-body > * {
+    /* select every element inside education-body*/
+    margin-bottom: 10px;
+}
+
+#education-body > h3 {
+    font-size: 2rem;
+}
+
+#education-body > p {
+    font-size: 1.4rem;
+}
+
+#dates {
+    color: grey;
+}
+
+/* -----Col-Right Requests----- */
+
+.count {
+    background-color: rgb(204, 204, 204);
+    border-radius: 50%;
+    padding: 5px 8px;
+    color: black;
+    margin-right: 5px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.thumbnail {
+    height: 70px;
+    border-radius: 50%;
+}
+
+.person span,
+.person-connections span {
+    font-size: 1.2rem;
+    margin-right: 50px;
+}
+
+.accept-reject {
+    height: 50px;
+    margin-right: 5px;
+}
+
+.card-body {
+    padding: 20px;
+    border: 3px solid grey;
+    border-top: none;
+}
+
+.requests {
+    margin-bottom: 20px;
+}
+
+.person-connections {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#view-more {
+    border: 3px solid grey;
+    border-top: none;
+    padding: 10px;
+    font-size: 1.5rem;
+}
